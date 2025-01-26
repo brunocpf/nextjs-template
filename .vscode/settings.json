@@ -3,7 +3,7 @@
     "**/app/**/page.tsx": "${dirname} - Page",
     "**/app/**/layout.tsx": "${dirname} - Layout",
     "**/app/**/template.tsx": "${dirname} - Template",
-    "**/components/**/*.tsx": "${dirname} - Component"
+    "**/components/**/*.tsx": "${filename} - Component"
   },
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
