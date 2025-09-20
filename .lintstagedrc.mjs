@@ -1,7 +1,7 @@
 import { relative } from "path";
 
 const buildEslintCommand = (filenames) =>
-  `next lint --fix --file ${filenames
+  `eslint --fix --max-warnings=0 --file ${filenames
     .map((f) => relative(process.cwd(), f))
     .map((f) => {
       console.log(f);
